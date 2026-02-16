@@ -1,23 +1,26 @@
-# Labeling Guidelines for Skill Extraction
+# Вакансії DOU для витягування скілів
 
-## Entities to Extract
-Ми розмічаємо одну категорію сутностей: **SKILL**.
+## Інформація про проєкт
+- **Завдання:** B. Extraction / NER
+- **Вхідні дані (Input):** Текст вакансії (description)
+- **Вихідні дані (Output):** Список технічних скілів та технологій
 
-### SKILL (Технологія / Навичка)
-**Включає:**
-- Мови програмування (Python, C++, Java)
-- Бібліотеки та фреймворки (Pandas, PyTorch, Django, React)
-- Бази даних (PostgreSQL, MongoDB)
-- Хмарні платформи (AWS, Azure, GCP)
-- Інструменти (Docker, Kubernetes, Git)
-- Концепції CS/DS (OOP, Machine Learning, NLP, CI/CD)
+## Джерело даних
+- **Джерело:** https://jobs.dou.ua/
+- **Інструменти:** Selenium + Python
 
-**Не включає:**
-- Soft skills (communication, teamwork, English level)
-- Загальні слова (software, database, computer, algorithm)
-- Назви компаній (якщо це не назва їхнього інструменту)
+## Обсяг та статистика
+- **Всього текстів:** 583 (raw), 583 (processed)
+- **Середня довжина:** ~463 слів
+- **Класи (категорії):** AI/ML, Python, Data Engineer, Data Science
 
-### Examples
-1. "Experience with **Python** and **Pandas** is required." -> [SKILL, SKILL]
-2. "Knowledge of **AWS** cloud services." -> [SKILL]
-3. "Good communication skills and upper-intermediate English." -> [NO TAGS]
+## Процес очищення
+- Видалено HTML-теги (через Selenium `.text`)
+- Замінено URL на `<URL>`
+- Замінено Email на `<EMAIL>`
+- Замінено номери телефонів на `<PHONE>`
+- Відфільтровано короткі тексти (< 10 слів) — *у цій вибірці таких не виявлено*
+
+## Ризики
+- **Двомовні тексти:** Суміш української та англійської мов (UA/EN mix) може ускладнити роботу простих NER-моделей.
+- **Форматування:** Нестандартні списки (bullets), які іноді зливаються в одне речення.
