@@ -1,26 +1,26 @@
-# Dataset Card: DOU Vacancies for Skill Extraction
+# Вакансії DOU для витягування скілів
 
-## Project Info
-- **Task:** B. Extraction / NER
-- **Input:** Текст вакансії (description)
-- **Output:** Список технічних скілів та технологій
+## Інформація про проєкт
+- **Завдання:** B. Extraction / NER
+- **Вхідні дані (Input):** Текст вакансії (description)
+- **Вихідні дані (Output):** Список технічних скілів та технологій
 
-## Data Source
-- **Source:** https://jobs.dou.ua/
-- **Tooling:** Selenium + Python
+## Джерело даних
+- **Джерело:** https://jobs.dou.ua/
+- **Інструменти:** Selenium + Python
 
-## Volume & Stats
-- **Total Texts:** 583 (raw), 583 (processed)
-- **Mean Length:** ~463 words
-- **Classes:** AI/ML, Python, Data Engineer, Data Science
+## Обсяг та статистика
+- **Всього текстів:** 583 (raw), 583 (processed)
+- **Середня довжина:** ~463 слів
+- **Класи (категорії):** AI/ML, Python, Data Engineer, Data Science
 
-## Cleaning Process
-- Removed HTML tags (via Selenium .text)
-- Replaced URLs with `<URL>`
-- Replaced Emails with `<EMAIL>`
-- Replaced Phone numbers with `<PHONE>`
-- Filtered out short texts (< 10 words) - *None found in this batch*
+## Процес очищення
+- Видалено HTML-теги (через Selenium `.text`)
+- Замінено URL на `<URL>`
+- Замінено Email на `<EMAIL>`
+- Замінено номери телефонів на `<PHONE>`
+- Відфільтровано короткі тексти (< 10 слів) — *у цій вибірці таких не виявлено*
 
-## Risks
-- Bilingual texts (UA/EN mix) - might confuse simple NER models.
-- Non-standard formatting of lists - some bullet points merged into sentences.
+## Ризики
+- **Двомовні тексти:** Суміш української та англійської мов (UA/EN mix) може ускладнити роботу простих NER-моделей
+- **Форматування:** Нестандартні списки (bullets), які іноді зливаються в одне речення
