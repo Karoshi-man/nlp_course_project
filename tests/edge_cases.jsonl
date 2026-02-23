@@ -1,20 +1,20 @@
-{"id": "ec_01", "raw_text": "“Startup with the Biggest Potential” at the DOU 2025 Awards! Spendbase is a platform for companies to reduce SaaS spending. 🤘 This year we’ve alread...", "expected_behavior": "Збереження IT-крапок"}
-{"id": "ec_02", "raw_text": "HOLYWATER — технологічна компанія, що створює розважальні продукти на перетині людської творчості та штучного інтелекту. Всі вакансії / AI/ML /...", "expected_behavior": "Українські скорочення"}
-{"id": "ec_03", "raw_text": "Ми venture builder, який будує міжнародні продуктові IT-компанії за правилами світу венчурних інвестицій. Разом із нашими ко-фаундерами збираємо сильні...", "expected_behavior": "Маскування URL"}
-{"id": "ec_04", "raw_text": "FREITTY — це інноваційна цифрова платформа для бізнесу та водіїв на ринку логістики США. Ми не просто компанія, а ключова частина великого екосистемно...", "expected_behavior": "Маскування Email"}
-{"id": "ec_05", "raw_text": "Компанія «Бойові Птахи України» (Warbirds.com.ua) є одним з провідних вітчизняних розробників та виробників БПЛА для потреб Сил ...", "expected_behavior": "Нормалізація символів"}
-{"id": "ec_06", "raw_text": "Corva is one of the hottest product companies in real-time data and analytics. We process 10TB+ every day for insight and intelligence. The world’s b...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_07", "raw_text": "Sigma Software входить до топ 100 найкращих IT компаній світу за рейтингом The Global Outsourcing 100. Компанія входить до складу шведської кор...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_08", "raw_text": "Про компанію Unbreakable Ukraine Foundation The main goal of the Unbreakable Ukraine Foundation — is to provide Ukrainian refug...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_09", "raw_text": "MindCraft is a leader in Machine Learning and Artificial Intelligence development company. Proven Data Science professionals at MindCraft have al...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_10", "raw_text": "PwC — це міжнародна мережа фірм, що пропонує професійні аудиторські, податкові, юридичні та консалтингові послуги. Офіси PwC розташовані в 149 кр...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_11", "raw_text": "COMFY — перший омніканальний рітейлер побутової техніки та електроніки в Україні. Наш онлайн-магазин входить в топ 3 найбільших гравців на ринку. Кожна ...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_12", "raw_text": "Devils — найбільша медіабаїнгова команда. Ми змінюємо індустрію affiliate маркетингу однією присутністю та змушуємо конкурентів відчувати стрес. Devils...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_13", "raw_text": "ZONE3000 надає комплексні рішення для розробки та підтримки продуктів у галузі хостингу, доменів, SSL-сертифікатів, особистої пошти та інших вебсерві...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_14", "raw_text": "We are ITernal Group, a reliable and reputable IT company that specializes in complex software solutions, the one company established by merging 3...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_15", "raw_text": "Fractal Analytics is one of the most prominent players in AI and analytics space. Fractal’s mission is to power every human decision in the ...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_16", "raw_text": "Promin Apps — продуктова компанія, що розробляє технологічні продукти, які покращують здоров’я, самопочуття та якість життя людей. Ми працюємо на ...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_17", "raw_text": "hutko — фінтех-сервіс, який рухає вітчизняну економіку вперед. У співпраці з ПУМБ, одним із найдинамічніших банків України, ми закриваємо всі потреби бі...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_18", "raw_text": "EverGreen Talent Partners is a trustworthy ally to help you navigate the engineering career world. Our aim is to connect skilled eng...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_19", "raw_text": "Proxet — компанія, що надає повний спектр сервісів розробки. Створюємо технологічні рішення і стратегію для бізнесів різного масштабу — від перспективн...", "expected_behavior": "Загальний препроцесинг"}
-{"id": "ec_20", "raw_text": "ELEKS — інженерна інноваційна компанія, яка надає послуги з розробки комплексних програмних продуктів. Майже 30 років ми працюємо партнером з інноваційн...", "expected_behavior": "Загальний препроцесинг"}
+{"id": "ec_01", "raw_text": "Шукаємо експерта з Node.js для бекенду.", "expected_behavior": "Do not split sentence at the dot in Node.js."}
+{"id": "ec_02", "raw_text": "Досвід з Vue.js та React.js обов'язковий.", "expected_behavior": "Do not split sentence inside Vue.js or React.js."}
+{"id": "ec_03", "raw_text": "Розробка під .NET платформу.", "expected_behavior": "Do not split sentence at .NET."}
+{"id": "ec_04", "raw_text": "Пишемо на C++. Долучайся.", "expected_behavior": "Preserve C++ exactly, do not remove plus symbols."}
+{"id": "ec_05", "raw_text": "Знання C# буде величезним плюсом.", "expected_behavior": "Preserve C# exactly, do not strip the hash symbol."}
+{"id": "ec_06", "raw_text": "Працюємо з Python’ом та Java`ом щодня.", "expected_behavior": "Normalize curly apostrophe ’ and backtick ` to standard straight apostrophe '."}
+{"id": "ec_07", "raw_text": "Проєкт «Супер» та “Крутий”.", "expected_behavior": "Normalize French quotes «» and fancy quotes “” to standard double quotes \"."}
+{"id": "ec_08", "raw_text": "Рівень — Senior або Middle.", "expected_behavior": "Normalize em-dash '—' to standard hyphen-minus '-'."}
+{"id": "ec_09", "raw_text": "Від 2\u00A0років досвіду.   Багато     пробілів.", "expected_behavior": "Replace NBSP with normal space, and collapse multiple spaces into one."}
+{"id": "ec_10", "raw_text": "Надсилайте CV на hr@company.com або apply@test.ua.", "expected_behavior": "Mask email addresses to <EMAIL>."}
+{"id": "ec_11", "raw_text": "Деталі компанії на сайті https://dou.ua/company/.", "expected_behavior": "Mask URLs to <URL>."}
+{"id": "ec_12", "raw_text": "Телефонуйте рекрутеру: +380 50 123 45 67.", "expected_behavior": "Mask Ukrainian phone numbers to <PHONE>."}
+{"id": "ec_13", "raw_text": "Гарна вакансія. Facebook Twitter LinkedIn Відгукнутися на вакансію Правила відгуків", "expected_behavior": "Remove DOU boilerplate social links and buttons entirely."}
+{"id": "ec_14", "raw_text": "Версія Angular 14.1.2 та Python 3.10.", "expected_behavior": "Do not split sentence on dots inside numeric versions."}
+{"id": "ec_15", "raw_text": "Наш офіс знаходиться у м. Львів, вул. Франка.", "expected_behavior": "Do not split sentence after standard UA abbreviations like 'м.' or 'вул.'."}
+{"id": "ec_16", "raw_text": "Треба знати SQL, Git і т.д. Це дуже важливо.", "expected_behavior": "Do not split inside 'т.д.'."}
+{"id": "ec_17", "raw_text": "Шукаємо крутого iOS розробника з досвідом.", "expected_behavior": "Do NOT replace Latin 'i' or 'o' with Cyrillic (Homoglyphs normalization must be OFF to save tech names)."}
+{"id": "ec_18", "raw_text": "Привіт! Шукаємо мідла. ЗП в доларах? Так.", "expected_behavior": "Correctly split into four separate sentences based on . ! ? markers."}
+{"id": "ec_19", "raw_text": "  Пробіли на початку та в кінці.  ", "expected_behavior": "Strip leading and trailing whitespaces from the final text."}
+{"id": "ec_20", "raw_text": "Напиши на test@test.com.", "expected_behavior": "Idempotence test: masking should not become <<EMAIL>> if run twice."}
