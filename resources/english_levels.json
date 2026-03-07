@@ -1,0 +1,20 @@
+{
+    "a1": "A1",
+    "beginner": "A1",
+    "basic": "A1",
+    "a2": "A2",
+    "elementary": "A2",
+    "pre-intermediate": "A2",
+    "pre intermediate": "A2",
+    "b1": "B1",
+    "intermediate": "B1",
+    "b2": "B2",
+    "upper-intermediate": "B2",
+    "upper intermediate": "B2",
+    "c1": "C1",
+    "advanced": "C1",
+    "fluent": "C1",
+    "c2": "C2",
+    "proficient": "C2",
+    "native": "C2"
+}
