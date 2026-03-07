@@ -1,0 +1,22 @@
+{"text": "Шукаємо Data Engineer з зарплатою $3000 - 4500", "field": "SALARY", "expected": {"min": 3000, "max": 4500, "currency": "USD"}, "issue": "Стандартний діапазон"}
+{"text": "Пропонуємо від 2k до 3.5k USD на місяць", "field": "SALARY", "expected": {"min": 2000, "max": 3500, "currency": "USD"}, "issue": "Використання 'k' замість тисяч"}
+{"text": "Компанія заснована у 2000 році, в команді 4000 людей.", "field": "SALARY", "expected": null, "issue": "Негативний тест: числа є, але це не гроші"}
+{"text": "Зарплата up to $5000", "field": "SALARY", "expected": {"min": 0, "max": 5000, "currency": "USD"}, "issue": "Вказана лише верхня межа"}
+{"text": "Бонус 20% до зарплати", "field": "SALARY", "expected": null, "issue": "Негативний тест: відсотки не є сумою"}
+{"text": "Рейт $30/година", "field": "SALARY", "expected": null, "issue": "Погодинна оплата (поки що ігноруємо, фокус на місячній/річній)"}
+{"text": "Бюджет 100 000 - 120 000 грн", "field": "SALARY", "expected": {"min": 100000, "max": 120000, "currency": "UAH"}, "issue": "Гривні з пробілами"}
+
+{"text": "Досвід роботи 3+ років", "field": "EXPERIENCE_YEARS", "expected": 3.0, "issue": "Стандартний формат з плюсом"}
+{"text": "Маєш від 1.5 року комерції", "field": "EXPERIENCE_YEARS", "expected": 1.5, "issue": "Дробове число"}
+{"text": "Шукаємо кандидата від 18 років", "field": "EXPERIENCE_YEARS", "expected": null, "issue": "Негативний тест: вік, а не досвід"}
+{"text": "Досвід з Python 3 та Angular 14", "field": "EXPERIENCE_YEARS", "expected": null, "issue": "Негативний тест: версії технологій"}
+{"text": "At least 2-3 years of relevant experience", "field": "EXPERIENCE_YEARS", "expected": 2.0, "issue": "Англомовний діапазон (беремо мінімум)"}
+{"text": "Проєкт розрахований на 2 роки", "field": "EXPERIENCE_YEARS", "expected": null, "issue": "Негативний тест: тривалість проєкту"}
+{"text": "Півтора року роботи з базами даних", "field": "EXPERIENCE_YEARS", "expected": 1.5, "issue": "Словесний опис числа (hard level)"}
+
+{"text": "English level: Upper-Intermediate", "field": "ENGLISH_LEVEL", "expected": "B2", "issue": "Словесний рівень"}
+{"text": "Вимагаємо B2 або вище", "field": "ENGLISH_LEVEL", "expected": "B2", "issue": "Літерно-цифровий формат"}
+{"text": "Досвід B2B продажів вітається", "field": "ENGLISH_LEVEL", "expected": null, "issue": "Негативний тест: B2B не є рівнем англійської"}
+{"text": "Впевнена англійська (Intermediate+)", "field": "ENGLISH_LEVEL", "expected": "B1", "issue": "Формат із плюсом"}
+{"text": "Знання C++ та C#", "field": "ENGLISH_LEVEL", "expected": null, "issue": "Негативний тест: мови програмування, а не CEFR"}
+{"text": "Fluent English is a must", "field": "ENGLISH_LEVEL", "expected": "C1", "issue": "Синоніми високого рівня"}
